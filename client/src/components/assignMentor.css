@@ -1,0 +1,10 @@
+.mentor-student-assign{
+   display:flex;
+   margin:30px;
+}
+.mentors{
+  margin:50px;
+}
+#addMentor{
+   margin:50px;
+}

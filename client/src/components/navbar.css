@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap'); */
+.navbar{
+    background:#402218;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+  
+}
+.listElemt:hover{
+   color:white;
+
+}
+.link{
+    color: rgb(196, 202, 202);
+    text-decoration: none;
+    vertical-align: middle;
+    margin:8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* padding:40px; */
+
+}
+#heading{
+    color:white;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 700;
+    padding:10px;
+    letter-spacing: 3px;
+}
+/* .link:hover{
+    color:white;
+} */
+.studentsList{
+    list-style-type: none;
+    /* background: pink; */
+    /* background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%); */
+    margin-top:-16px;
+}
+.add-mentors{
+  /* background-color: aqua; */
+  padding:10px;
+  margin:50px;
+  border:2px solid #314869;
+}
+.image{
+    width:300px;
+    margin:auto 200px;
+    border-radius: 20px;
+    /* padding:20px; */
+    box-shadow: 2px 2px 10px #EDD2F3;
+}
+.App{
+     /* background-image:#D8B6A4  */
+    background-image: linear-gradient(to top, #D8B6A4 0%, #72afd3 100%);
+}
+.headLine{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    /* font-family: 'Inconsolata', monospace; */
+ 
+        font-size: 42px;
+        background: -webkit-linear-gradient(rgb(233, 43, 10), rgb(236, 3, 93));
+        background-clip:text;
+        font-weight: 500;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* max-width:500px; */
+        text-align: center;
+      
+}
+.footer{
+    color:rgb(211, 209, 209);
+    text-align: center;
+    background: #402218;
+    padding:20px;
+    margin-top:20px;
+}
+#assignButton{
+    margin:50px;
+}
+#changeMentor{
+    margin:35px;
+}
+#findStudents{
+    margin:30px;
+}
+.addForm{
+    display:block;
+    margin:30px;
+}
